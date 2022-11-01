@@ -309,7 +309,7 @@ By refactoring our code and streamlining **For** loop statements into one loop w
 #### 2017 vs 2018 - [Refactored code](https://github.com/vkbt/Stock_Analysis/blob/main/VBA_Challenge_refactored.vbs) with one loop
  <p float="left">
 <img src="https://github.com/vkbt/Stock_Analysis/blob/main/resources/Refactored%20code%202017.png" width=40% height=40%>
-<img src="https://github.com/vkbt/Stock_Analysis/blob/main/resources/Refactored%20code%202018.png" width=40% height=40%>
+<img src="https://github.com/vkbt/Stock_Analysis/blob/main/resources/Refactored%20code%202018.png" width=38% height=38%>
 </p>
 
 ## Conclusion and Challenges
