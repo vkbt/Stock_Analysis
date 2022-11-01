@@ -13,7 +13,7 @@ Given that our dataset will increase almost 50x the main challenge for us is to 
 <details>
  <summary>Click here to see Original Code</summary>
 
-  ### Original Code [VBA_Challenge_original.vbs](https://github.com/vkbt/stock-analysis/blob/main/VBA_Challenge_original.vbs)
+  ### Original Code [VBA_Challenge_original.vbs](https://github.com/vkbt/Stock_Analysis/blob/main/VBA_Challenge_original.vbs)
   ```vba
  
  Sub AllStockAnalysis()
@@ -173,7 +173,7 @@ End Sub
 <details>
  <summary>Click here to see Refactored Code</summary>
  
-  ### Refactored code [VBA_Challenge_refactored.vbs](https://github.com/vkbt/stock-analysis/blob/main/VBA_Challenge_refactored.vbs) 
+  ### Refactored code [VBA_Challenge_refactored.vbs](https://github.com/vkbt/Stock_Analysis/blob/main/VBA_Challenge_refactored.vbs) 
 ```vba
  
  Sub AllStocksAnalysisRefactored()
@@ -293,23 +293,23 @@ End Sub
 
 
 #### Code Performance and Findings:
-**Final Workbook:** [VBA_Challenge.xlsm](https://github.com/vkbt/stock-analysis/blob/main/VBA_Challenge.xlsm)
+**Final Workbook:** [VBA_Challenge.xlsm](https://github.com/vkbt/Stock_Analysis/blob/main/VBA_Challenge.xlsm)
  
  To measure performance of our original code we have implemented a timer routine within our code and took notes of code run times running 2017 data as well as 2018.
 
-#### 2017 vs 2018 - [Original code](https://github.com/vkbt/stock-analysis/blob/main/VBA_Challenge_original.vbs) with multiple loops
+#### 2017 vs 2018 - [Original code](https://github.com/vkbt/Stock_Analysis/blob/main/VBA_Challenge_original.vbs) with multiple loops
 <p float="left">
- <img src="https://github.com/vkbt/stock-analysis/blob/main/resources/Original%20code%202017.png" width=40% height=40%>
- <img src="https://github.com/vkbt/stock-analysis/blob/main/resources/Original%20code%202018.png" width=40% height=40%>
+ <img src="https://github.com/vkbt/Stock_Analysis/blob/main/resources/Original%20code%202017.png" width=40% height=40%>
+ <img src="https://github.com/vkbt/Stock_Analysis/blob/main/resources/Original%20code%202018.png" width=40% height=40%>
  </p>
 
 
 By refactoring our code and streamlining **For** loop statements into one loop we were able to drastically improve our code performance which is evident if we compare run times of our original code vs. our newly refactored code.
 
-#### 2017 vs 2018 - [Refactored code](https://github.com/vkbt/stock-analysis/blob/main/VBA_Challenge_refactored.vbs) with one loop
+#### 2017 vs 2018 - [Refactored code](https://github.com/vkbt/Stock_Analysis/blob/main/VBA_Challenge_refactored.vbs) with one loop
  <p float="left">
-<img src="https://github.com/vkbt/stock-analysis/blob/main/resources/Refactored%20code%202017.png" width=40% height=40%>
-<img src="https://github.com/vkbt/stock-analysis/blob/main/resources/Refactored%20code%202018.png" width=40% height=40%>
+<img src="https://github.com/vkbt/Stock_Analysis/blob/main/resources/Refactored%20code%202017.png" width=40% height=40%>
+<img src="https://github.com/vkbt/Stock_Analysis/blob/main/resources/Refactored%20code%202018.png" width=40% height=40%>
 </p>
 
 ## Conclusion and Challenges
